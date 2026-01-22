@@ -1,6 +1,6 @@
 # Walmart Sales ETL Pipeline (Python → SQL Server)
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements an **end-to-end ETL (Extract, Transform, Load) pipeline** for Walmart sales data using **Python (Pandas)** and **SQL Server**.
 
@@ -8,9 +8,7 @@ The pipeline ingests raw retail sales data from CSV files, applies data quality 
 
 This project is designed to be **portfolio-ready** and aligned with real-world **Data Engineering workflows**.
 
-
-
-## 🔁 ETL Architecture
+## ETL Architecture
 
 <img width="1018" height="711" alt="Image" src="https://github.com/user-attachments/assets/e0c34e6e-37ed-43c2-9326-344a380d0913" />
 
