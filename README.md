@@ -1,5 +1,5 @@
 # Walmart Sales ETL Pipeline (Python → SQL Server)
----
+
 ## 📌 Project Overview
 
 This project implements an **end-to-end ETL (Extract, Transform, Load) pipeline** for Walmart sales data using **Python (Pandas)** and **SQL Server**.
@@ -8,7 +8,7 @@ The pipeline ingests raw retail sales data from CSV files, applies data quality 
 
 This project is designed to be **portfolio-ready** and aligned with real-world **Data Engineering workflows**.
 
----
+
 
 ## 🔁 ETL Architecture
 
@@ -22,8 +22,6 @@ This project is designed to be **portfolio-ready** and aligned with real-world *
 
 This architecture mirrors a **production-style ETL pipeline**, where Python acts as the transformation engine and SQL Server serves as the analytical data store.
 
----
-
 ## ETL Objectives
 
 * Extract raw Walmart sales data from CSV files
@@ -31,8 +29,6 @@ This architecture mirrors a **production-style ETL pipeline**, where Python acts
 * Ensure schema consistency and analytics readiness
 * Load cleaned data into SQL Server
 * Enable efficient SQL analytics on structured data
-
----
 
 ## Tech Stack
 
@@ -42,8 +38,6 @@ This architecture mirrors a **production-style ETL pipeline**, where Python acts
 * **SQL Server** (Windows Authentication)
 * **Jupyter Notebook**
 * **Git & GitHub**
-  
----
 
 ## ETL Pipeline Breakdown
 
@@ -55,8 +49,6 @@ This architecture mirrors a **production-style ETL pipeline**, where Python acts
 ```python
 df = pd.read_csv('Walmart.csv', encoding_errors='ignore')
 ```
-
----
 
 ### Transform
 
@@ -77,8 +69,6 @@ df.isnull().sum()
 
 These transformations ensure the dataset is **consistent, clean, and analytics-ready**.
 
----
-
 ### Load
 
 * Establish SQL Server connection using SQLAlchemy
@@ -94,8 +84,6 @@ df.to_sql(
 )
 ```
 
----
-
 ## SQL Analytics Enabled
 
 Once loaded into SQL Server, the data supports queries such as:
@@ -106,9 +94,7 @@ Once loaded into SQL Server, the data supports queries such as:
 * Sales distribution by location
 * Trend analysis over time
 
----
-
-## 🎯 Key Learnings & Skills Demonstrated
+## Key Learnings & Skills Demonstrated
 
 * End-to-end ETL pipeline design
 * Data cleaning and validation using Pandas
@@ -118,7 +104,7 @@ Once loaded into SQL Server, the data supports queries such as:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Incremental loads instead of full refresh
 * Data validation with Great Expectations
@@ -128,7 +114,7 @@ Once loaded into SQL Server, the data supports queries such as:
 
 ---
 
-## 👤 Author
+## Author
 
 **Moavia Mahmood**
 Data Engineer | Python | SQL | ETL Pipelines
